@@ -1,0 +1,130 @@
+body {
+  font-family: "Trip Sans Reg";
+  /* font-family: "Trip Sans Med"; */
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  background-color: lavender;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header img {
+  width: 200px;
+  height: 100%;
+}
+
+/* Nav */
+
+.primary-nav {
+  display: flex;
+  align-items: center;
+  font-family: "Trip Sans Med";
+}
+
+.primary-nav .menu-item {
+  padding: 20px;
+  margin: 0 15px;
+}
+
+.primary-nav button {
+  font-size: 14px;
+  background: black;
+  color: white;
+  padding: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+}
+
+h1 {
+  margin-top: 25px;
+  font-size: 54px;
+  font-family: "Trip Sans Med";
+}
+
+h1 span {
+  color: #ff5d5d;
+}
+
+/* Secondary Nav */
+.secondary-nav {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.secondary-nav p {
+  height: 25px;
+  padding: 20px 0 20px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  /* margin: 10px; */
+}
+
+/* .secondary-nav p:first-child,
+.secondary-nav p:last-child {
+  margin: 10px 0;
+} */
+
+.images img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.images {
+  margin-top: 35px;
+  height: 350px;
+  display: flex;
+}
+
+.left img {
+  width: 100%;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3px;
+}
+.right img {
+  height: 50%;
+}
+
+.right img:first-child {
+  margin-bottom: 3px;
+}
+
+.left-column {
+  flex: 4;
+}
+.left-column p {
+  font-size: 20px;
+  font-family: Georgia;
+  font-weight: 30;
+  font-style: normal;
+  line-height: 24px;
+  display: flex;
+}
+
+.left-column2 {
+  flex: 4;
+}
+.left-column2 p {
+  font-size: 20px;
+  font-family: Georgia;
+  font-weight: 30;
+  font-style: normal;
+  line-height: 24px;
+}
